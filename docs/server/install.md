@@ -71,6 +71,7 @@ firewall-cmd --reload
 yum install rsync -y
 vi /etc/rsyncd.conf
 ```
+添加一下内容
 ```
 [www]
     uid = nginx
